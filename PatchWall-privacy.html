@@ -106,30 +106,60 @@
         <p>
           PatchWall does not require registration and does not collect personal
           data such as name, email address, phone number, or precise location.
-          Gameplay progress and settings are stored locally on your device and
-          are not transmitted to the developer.
+          Gameplay progress and settings are stored locally on your device.
+        </p>
+        <p>
+          PatchWall uses <strong>Google Analytics for Firebase</strong> to
+          understand app usage and improve gameplay balance. The app may send
+          gameplay analytics events such as level start, level completion,
+          level retry, and level selection, with related parameters such as
+          level name, success state, duration, first-clear state, and attempt
+          count. These events do not include your name, email address, phone
+          number, precise location, or custom user identifier.
+        </p>
+        <p>
+          Google Analytics for Firebase may process technical information such
+          as app-instance or installation identifiers, device and operating
+          system information, IP address, app interactions, and event data for
+          analytics and measurement purposes.
+        </p>
+
+        <h2>Crash Reporting</h2>
+        <p>
+          PatchWall uses <strong>Firebase Crashlytics</strong> to collect crash
+          reports and diagnose stability issues. Crash reports may include
+          stack traces, crash state, app version, device model, operating
+          system version, diagnostic information, IP address, and Firebase
+          installation identifiers. PatchWall does not add custom user IDs or
+          custom Crashlytics events to crash reports.
         </p>
 
         <h2>Advertising</h2>
         <p>
           PatchWall uses <strong>Google Mobile Ads (AdMob)</strong> to serve
-          advertisements. AdMob may collect and use the following data to
-          provide relevant ads and measure ad performance:
+          advertisements. Google Mobile Ads may collect and share the following
+          data for advertising, analytics, ad measurement, and fraud prevention:
         </p>
         <ul>
-          <li>Device identifiers, including the Android Advertising ID and,
-            on iOS, the Identifier for Vendor (IDFV)</li>
+          <li>
+            Device identifiers, including the Android Advertising ID, Android
+            app set ID, and, on iOS, the Identifier for Vendor (IDFV)
+          </li>
           <li>IP address</li>
           <li>Device type and operating system version</li>
-          <li>Ad interactions (views, clicks)</li>
+          <li>App and ad interactions, such as app launches, taps, ad views,
+            and clicks</li>
+          <li>Diagnostic information related to app and SDK performance</li>
         </ul>
         <p>
           <strong>Note for iOS users:</strong> PatchWall does not request
           tracking permission (App Tracking Transparency). As a result,
           Apple's Identifier for Advertisers (IDFA) is never
           accessed. Google Mobile Ads may still collect the device's
-          Identifier for Vendor (IDFV) for ad delivery and analytics.
-          Only contextual (non-personalized) ads are served on iOS.
+          Identifier for Vendor (IDFV) for ad delivery, analytics, and
+          measurement. Ads may be personalized or non-personalized depending on
+          your consent choices, Google settings, platform limitations, and
+          applicable law.
         </p>
         <p>
           You can opt out of interest-based advertising at any time:
@@ -140,29 +170,35 @@
             Ads Personalization
           </li>
           <li>
-            <strong>iOS:</strong> No action required — PatchWall does not
-            collect the Identifier for Advertisers (IDFA), so ads are
-            already non-personalized.
+            <strong>iOS:</strong> PatchWall does not request App Tracking
+            Transparency permission and does not access IDFA. You can also
+            review Apple privacy and advertising settings in iOS Settings.
           </li>
         </ul>
         <p>
           For more information about how Google handles data, see
-          <a href="https://policies.google.com/privacy"
-            >Google Privacy Policy</a
-          >
+          <a href="https://policies.google.com/privacy">Google Privacy Policy</a>
           and
-          <a href="https://support.google.com/admob/answer/6128543"
-            >AdMob Data Safety</a
-          >.
+          <a href="https://support.google.com/admob/answer/6128543">AdMob Data Safety</a>.
+          For Firebase services, see
+          <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a>.
         </p>
 
-        <h2>User Consent (GDPR / EEA)</h2>
+        <h2>User Consent and Privacy Choices</h2>
         <p>
-          For users in the European Economic Area (EEA) and the UK, PatchWall
-          displays a consent dialog before loading ads, powered by Google's
-          User Messaging Platform (UMP). You may accept or decline
-          personalized advertising. If you decline, only contextual
-          (non-personalized) ads will be shown.
+          For users in the European Economic Area (EEA), the UK, and
+          Switzerland, PatchWall displays a consent dialog powered by Google's
+          User Messaging Platform (UMP). Depending on your region and choices,
+          the consent dialog may be used for advertising, analytics storage, ad
+          storage, ad user data, and ad personalization signals. If you decline
+          personalized advertising, ads may still be shown, but they should be
+          non-personalized or otherwise limited according to your choices and
+          applicable law.
+        </p>
+        <p>
+          For users in US states with applicable privacy regulations, PatchWall
+          may display a privacy message that allows you to opt out of the sale
+          or sharing of personal information where required.
         </p>
 
         <h2>Children's Privacy</h2>
