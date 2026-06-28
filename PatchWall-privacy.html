@@ -8,6 +8,13 @@
       name="description"
       content="Privacy Policy for PatchWall, a puzzle game by FeliX Studio."
     />
+    <link rel="alternate" hreflang="en" href="https://ghera.github.io/PatchWall-privacy.html" />
+    <link rel="alternate" hreflang="it" href="https://ghera.github.io/PatchWall-privacy-it.html" />
+    <link rel="alternate" hreflang="es" href="https://ghera.github.io/PatchWall-privacy-es.html" />
+    <link rel="alternate" hreflang="fr" href="https://ghera.github.io/PatchWall-privacy-fr.html" />
+    <link rel="alternate" hreflang="pt" href="https://ghera.github.io/PatchWall-privacy-pt.html" />
+    <link rel="alternate" hreflang="de" href="https://ghera.github.io/PatchWall-privacy-de.html" />
+    <link rel="alternate" hreflang="x-default" href="https://ghera.github.io/PatchWall-privacy.html" />
     <style>
       :root {
         color-scheme: light dark;
@@ -86,6 +93,30 @@
         margin-bottom: 32px;
       }
 
+
+      .language-switcher {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: -16px 0 32px;
+      }
+
+      .language-switcher a {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--text);
+        font-size: 0.95rem;
+        line-height: 1.2;
+        padding: 6px 10px;
+        text-decoration: none;
+      }
+
+      .language-switcher a[aria-current="page"] {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--panel);
+      }
+
       a {
         color: var(--accent);
       }
@@ -96,6 +127,15 @@
       <article>
         <h1>PatchWall Privacy Policy</h1>
         <p class="updated">Last updated: June 2026</p>
+
+        <nav class="language-switcher" aria-label="Language selector">
+          <a href="PatchWall-privacy.html" lang="en" aria-current="page">English</a>
+          <a href="PatchWall-privacy-it.html" lang="it">Italiano</a>
+          <a href="PatchWall-privacy-es.html" lang="es">Español</a>
+          <a href="PatchWall-privacy-fr.html" lang="fr">Français</a>
+          <a href="PatchWall-privacy-pt.html" lang="pt">Português</a>
+          <a href="PatchWall-privacy-de.html" lang="de">Deutsch</a>
+        </nav>
 
         <p>
           PatchWall respects your privacy. This policy describes how your

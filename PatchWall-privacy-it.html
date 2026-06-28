@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Informativa sulla privacy di PatchWall</title>
+    <meta
+      name="description"
+      content="Informativa sulla privacy di PatchWall, un puzzle game di FeliX Studio."
+    />
+    <link rel="alternate" hreflang="en" href="https://ghera.github.io/PatchWall-privacy.html" />
+    <link rel="alternate" hreflang="it" href="https://ghera.github.io/PatchWall-privacy-it.html" />
+    <link rel="alternate" hreflang="es" href="https://ghera.github.io/PatchWall-privacy-es.html" />
+    <link rel="alternate" hreflang="fr" href="https://ghera.github.io/PatchWall-privacy-fr.html" />
+    <link rel="alternate" hreflang="pt" href="https://ghera.github.io/PatchWall-privacy-pt.html" />
+    <link rel="alternate" hreflang="de" href="https://ghera.github.io/PatchWall-privacy-de.html" />
+    <link rel="alternate" hreflang="x-default" href="https://ghera.github.io/PatchWall-privacy.html" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7f7fb;
+        --text: #171724;
+        --muted: #56566a;
+        --panel: #ffffff;
+        --border: #d9d9e5;
+        --accent: #2457d6;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #101018;
+          --text: #f2f2f7;
+          --muted: #b9b9c8;
+          --panel: #181824;
+          --border: #313142;
+          --accent: #8fb3ff;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", sans-serif;
+        line-height: 1.6;
+      }
+
+      main {
+        width: min(760px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 48px 0;
+      }
+
+      article {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: clamp(24px, 5vw, 48px);
+      }
+
+      h1,
+      h2 {
+        line-height: 1.2;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 7vw, 3rem);
+      }
+
+      h2 {
+        margin: 32px 0 8px;
+        font-size: 1.2rem;
+      }
+
+      p {
+        margin: 0 0 16px;
+      }
+
+      ul {
+        margin: 0 0 16px;
+        padding-left: 24px;
+      }
+
+      .updated {
+        color: var(--muted);
+        margin-bottom: 32px;
+      }
+
+
+      .language-switcher {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: -16px 0 32px;
+      }
+
+      .language-switcher a {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--text);
+        font-size: 0.95rem;
+        line-height: 1.2;
+        padding: 6px 10px;
+        text-decoration: none;
+      }
+
+      .language-switcher a[aria-current="page"] {
+        background: var(--accent);
+        border-color: var(--accent);
+        color: var(--panel);
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>Informativa sulla privacy di PatchWall</h1>
+        <p class="updated">Ultimo aggiornamento: giugno 2026</p>
+
+        <nav class="language-switcher" aria-label="Selettore lingua">
+          <a href="PatchWall-privacy.html" lang="en">English</a>
+          <a href="PatchWall-privacy-it.html" lang="it" aria-current="page">Italiano</a>
+          <a href="PatchWall-privacy-es.html" lang="es">Español</a>
+          <a href="PatchWall-privacy-fr.html" lang="fr">Français</a>
+          <a href="PatchWall-privacy-pt.html" lang="pt">Português</a>
+          <a href="PatchWall-privacy-de.html" lang="de">Deutsch</a>
+        </nav>
+
+        <p>
+          PatchWall rispetta la tua privacy. Questa informativa descrive come
+          vengono gestite le tue informazioni quando usi l'app.
+        </p>
+
+        <h2>Dati raccolti dall'app</h2>
+        <p>
+          PatchWall non richiede registrazione e non raccoglie dati personali
+          come nome, indirizzo email, numero di telefono o posizione precisa.
+          I progressi di gioco e le impostazioni vengono salvati localmente sul
+          tuo dispositivo.
+        </p>
+        <p>
+          PatchWall usa <strong>Google Analytics for Firebase</strong> per
+          comprendere l'utilizzo dell'app e migliorare il bilanciamento del
+          gameplay. L'app può inviare eventi di analisi del gameplay, come
+          avvio livello, completamento livello, nuovo tentativo del livello e
+          selezione del livello, con parametri correlati come nome del livello,
+          stato di successo, durata, stato di primo completamento e numero di
+          tentativi. Questi eventi non includono il tuo nome, indirizzo email,
+          numero di telefono, posizione precisa o identificatore utente
+          personalizzato.
+        </p>
+        <p>
+          Google Analytics for Firebase può trattare informazioni tecniche come
+          identificatori dell'istanza dell'app o dell'installazione,
+          informazioni sul dispositivo e sul sistema operativo, indirizzo IP,
+          interazioni con l'app e dati degli eventi per finalità di analisi e
+          misurazione.
+        </p>
+
+        <h2>Segnalazione dei crash</h2>
+        <p>
+          PatchWall usa <strong>Firebase Crashlytics</strong> per raccogliere
+          report di crash e diagnosticare problemi di stabilità. I report di
+          crash possono includere stack trace, stato del crash, versione
+          dell'app, modello del dispositivo, versione del sistema operativo,
+          informazioni diagnostiche, indirizzo IP e identificatori di
+          installazione Firebase. PatchWall non aggiunge ID utente
+          personalizzati o eventi Crashlytics personalizzati ai report di
+          crash.
+        </p>
+
+        <h2>Pubblicità</h2>
+        <p>
+          PatchWall usa <strong>Google Mobile Ads (AdMob)</strong> per mostrare
+          annunci pubblicitari. Google Mobile Ads può raccogliere e condividere
+          i seguenti dati per pubblicità, analisi, misurazione degli annunci e
+          prevenzione delle frodi:
+        </p>
+        <ul>
+          <li>
+            Identificatori del dispositivo, inclusi Android Advertising ID,
+            Android app set ID e, su iOS, Identifier for Vendor (IDFV)
+          </li>
+          <li>Indirizzo IP</li>
+          <li>Tipo di dispositivo e versione del sistema operativo</li>
+          <li>Interazioni con app e annunci, come avvii dell'app, tocchi,
+            visualizzazioni di annunci e clic</li>
+          <li>Informazioni diagnostiche relative alle prestazioni dell'app e
+            dell'SDK</li>
+        </ul>
+        <p>
+          <strong>Nota per gli utenti iOS:</strong> PatchWall non richiede
+          l'autorizzazione al tracciamento (App Tracking Transparency). Di
+          conseguenza, l'Identifier for Advertisers (IDFA) di Apple non viene
+          mai consultato. Google Mobile Ads può comunque raccogliere
+          l'Identifier for Vendor (IDFV) del dispositivo per pubblicazione degli
+          annunci, analisi e misurazione. Gli annunci possono essere
+          personalizzati o non personalizzati in base alle tue scelte di
+          consenso, alle impostazioni Google, alle limitazioni della piattaforma
+          e alla legge applicabile.
+        </p>
+        <p>
+          Puoi disattivare la pubblicità basata sugli interessi in qualsiasi
+          momento:
+        </p>
+        <ul>
+          <li>
+            <strong>Android:</strong> Impostazioni → Google → Annunci →
+            Disattiva personalizzazione annunci
+          </li>
+          <li>
+            <strong>iOS:</strong> PatchWall non richiede l'autorizzazione App
+            Tracking Transparency e non accede all'IDFA. Puoi anche controllare
+            le impostazioni Apple relative a privacy e pubblicità nelle
+            Impostazioni di iOS.
+          </li>
+        </ul>
+        <p>
+          Per maggiori informazioni su come Google gestisce i dati, consulta la
+          <a href="https://policies.google.com/privacy">Norme sulla privacy di Google</a>
+          e
+          <a href="https://support.google.com/admob/answer/6128543">Sicurezza dei dati AdMob</a>.
+          Per i servizi Firebase, consulta
+          <a href="https://firebase.google.com/support/privacy">Privacy e sicurezza in Firebase</a>.
+        </p>
+
+        <h2>Consenso dell'utente e scelte sulla privacy</h2>
+        <p>
+          Per gli utenti nello Spazio economico europeo (SEE), nel Regno Unito
+          e in Svizzera, PatchWall mostra una finestra di consenso gestita dalla
+          User Messaging Platform (UMP) di Google. A seconda della tua area
+          geografica e delle tue scelte, la finestra di consenso può essere
+          usata per pubblicità, archiviazione dei dati di analisi,
+          archiviazione degli annunci, dati utente per gli annunci e segnali di
+          personalizzazione degli annunci. Se rifiuti la pubblicità
+          personalizzata, gli annunci possono comunque essere mostrati, ma
+          dovrebbero essere non personalizzati o comunque limitati in base alle
+          tue scelte e alla legge applicabile.
+        </p>
+        <p>
+          Per gli utenti negli stati degli Stati Uniti con normative sulla
+          privacy applicabili, PatchWall può mostrare un messaggio sulla privacy
+          che consente di opporsi alla vendita o condivisione di informazioni
+          personali dove richiesto.
+        </p>
+
+        <h2>Privacy dei minori</h2>
+        <p>
+          PatchWall non è rivolto a minori di 13 anni. Se veniamo a conoscenza
+          del fatto che un minore di 13 anni ha fornito dati personali tramite
+          l'app, adotteremo misure per eliminarli. Se sei un genitore o tutore
+          e ritieni che tuo figlio abbia fornito dati personali, contattaci
+          all'indirizzo email indicato sotto.
+        </p>
+
+        <h2>Modifiche a questa informativa sulla privacy</h2>
+        <p>
+          Questa informativa sulla privacy può essere aggiornata di tanto in
+          tanto. Eventuali modifiche saranno pubblicate su questa pagina con una
+          data di "Ultimo aggiornamento" aggiornata.
+        </p>
+
+        <h2>Supporto</h2>
+        <p>
+          Se hai domande o feedback su questa informativa sulla privacy o su
+          PatchWall, puoi contattare lo sviluppatore all'indirizzo
+          <a href="mailto:ghera@libero.it">ghera@libero.it</a>.
+        </p>
+      </article>
+    </main>
+  </body>
+</html>
